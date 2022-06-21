@@ -1,0 +1,24 @@
+.main {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: minmax(auto, 390px) minmax(auto, 590px) minmax(auto, 160px);
+    grid-template-rows: repeat(2, 198px);
+    grid-auto-rows: 198px;
+    background-color: #B3F95A;
+    gap: 15px;
+
+    & div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #8AD191;
+        font-size: 53px;
+        line-height: 62px;
+
+        color: #FFFFFF;
+    }
+
+    & div:nth-child(4) {
+        grid-column: 1 / 3;
+    }
+}

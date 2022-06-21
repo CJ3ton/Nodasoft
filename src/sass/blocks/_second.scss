@@ -1,0 +1,21 @@
+.second {
+    margin-top: 15px;
+    padding: 30px;
+    background-color: #88B5BF;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+    &__item {
+        background-color: #0D89B0;
+        width: 100%;
+
+        &::before {
+            content: '';
+            display: block;
+            padding-top: 78.04%;
+        }
+
+    }
+}
